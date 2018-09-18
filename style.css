@@ -6,3 +6,17 @@
 .create-account {
     margin-right: 5px;
 }
+
+
+/*
+
+Discussion Styles
+*/
+.margin-top-20px {
+    margin-top: 20px;
+}
+
+.bordered {
+    border: solid;
+    border-width: 0.5px;
+}
