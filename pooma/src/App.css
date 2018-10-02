@@ -137,6 +137,7 @@ footer {
   }
 }
 
+
 @media (max-width: 965px) {
   .avatar{
     display: none;
@@ -145,4 +146,16 @@ footer {
     padding: 2% 0 2% 0;
     max-width: 100%
   }
+  
+.navbar {
+  background-color: #E85A4F;
+}
+
+div > h2 {
+  color: #eae7dc;
+}
+
+footer {
+  background-color: #8e8d8a;
+
 }

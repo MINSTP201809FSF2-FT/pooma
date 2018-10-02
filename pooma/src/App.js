@@ -1,24 +1,22 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import NavComponent from './components/Navbar.js'
+import NavComponent from './components/Layout/Navbar.js'
 import './App.css';
-import Footer from './components/Footer.js'
 import Discussion from './components/Discussion.js'
+import Footer from './components/Layout/Footer.js'
+import Sidebar from './components/Layout/Sidebar.js'
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Pooma!!!!!! RAWR!</h1>
-          <NavComponent />
-        </header>
-        <p className="App-intro">
-          OMG! THIS IS GOING TO BE SO FUN!!!!
-        </p>
-        <Discussion />
-        <Footer />
+          <NavComponent /> 
+          <div className="container">
+          <Sidebar />
+          </div>
+      
+         <Footer />
       </div>
     );
   }
