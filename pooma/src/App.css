@@ -8,10 +8,10 @@
 }
 
 .App-header {
-  background-color:#E85A4F;
-  height: 150px;
+  background-color: #E85A4F;
   padding: 20px;
   color: white;
+  width: auto;
 }
 
 .App-title {
@@ -22,7 +22,45 @@
   font-size: large;
 }
 
+.navWide {
+  display: none;
+  width: 100%;
+}
+
+.wideDiv a {
+  min-width: 100%;
+  display: inline;
+  padding: 2%;
+}
+
+
+.narrowLinks {
+  display: none;
+}
+
+.narrowLinks a {
+  display: inline-block;
+  clear: left;
+  padding: 2%;
+}
+
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 480px) {
+
+  .navWide {
+    display: inline-block;
+  }
+
+  .navNarrow {
+    display: none;
+  }
 }
