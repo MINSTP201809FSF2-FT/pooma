@@ -16,7 +16,7 @@ export default class NavComponent extends React.Component {
                         <a href="#">Link 3</a>
                     </div>
                 </div>
-                <div className="navNarrow">
+                <div className="navbar navNarrow">
                     <i className="fa fa-bars fa-2x" onClick={this.hamburgerToggle}></i>
                     <div className="narrowLinks" ref="narrowLinks">
                         <a href="#">Link 1</a>
