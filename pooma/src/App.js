@@ -8,15 +8,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Pooma!!!!!! RAWR!</h1>
-          <NavComponent />
-        </header>
-        <p className="App-intro">
-          OMG! THIS IS GOING TO BE SO FUN!!!!
-        </p>
-        <Footer />
+          <NavComponent /> 
+          <div className="container">
+          </div>
+      
+         <Footer />
       </div>
     );
   }
