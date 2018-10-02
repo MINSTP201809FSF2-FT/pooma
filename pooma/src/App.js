@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import NavComponent from './components/Navbar.js'
 import './App.css';
+import Login from './components/Footer.js'
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         <p className="App-intro">
           OMG! THIS IS GOING TO BE SO FUN!!!!
         </p>
+        <Login />
       </div>
     );
   }
