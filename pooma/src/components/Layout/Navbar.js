@@ -6,7 +6,10 @@ export default class NavComponent extends React.Component {
     render() {
         return (
             <nav>
-                <div className="navWide">
+                <div className="navbar">
+                    <div className="navbar-brand">
+                       <h2>Pooma</h2> 
+                    </div>
                     <div className="wideDiv">
                         <a href="#">Link 1</a>
                         <a href="#">Link 2</a>
