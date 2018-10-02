@@ -64,3 +64,15 @@
     display: none;
   }
 }
+
+.navbar {
+  background-color: #E85A4F;
+}
+
+div > h2 {
+  color: #eae7dc;
+}
+
+footer {
+  background-color: #8e8d8a;
+}
