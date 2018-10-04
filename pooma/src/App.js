@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import NavBar from './components/Layout/Navbar/Navbar';
 import './App.css';
-// import Discussion from './components/Layout/Discussion';
-import Footer from './components/Layout/Footer/Footer';
+
+import Footer from './components/Layout/Footer/Footer.js';
+// import Sidebar from './components/Layout/Sidebar/Sidebar.js';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Mainpage from './components/Layout/Mainpage/Mainpage.js';
 
@@ -14,8 +15,6 @@ class App extends Component {
         <div className="App">
           <NavBar />
           <Mainpage />
-          <div className="container ">{/* <Discussion /> */}</div>
-
           <Footer />
         </div>
       </Router>

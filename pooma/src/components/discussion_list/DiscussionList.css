@@ -1,0 +1,6 @@
+div.discussion-list {
+    display: flex;
+    flex-direction: column;
+    background-color: lightsalmon;
+    height:400px;
+}
