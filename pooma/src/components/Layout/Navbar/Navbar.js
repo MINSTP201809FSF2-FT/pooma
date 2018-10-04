@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-class NavComponent extends React.Component {
+class NavBar extends React.Component {
   render() {
     return (
       <nav>
@@ -39,7 +39,7 @@ class NavComponent extends React.Component {
   };
 }
 
-export default NavComponent;
+export default NavBar;
 
 // ReactDOM.render(<NavComponent />, document.getElementById('navbar'))
 // registerServiceWorker();

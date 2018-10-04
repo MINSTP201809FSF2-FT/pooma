@@ -1,22 +1,20 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import NavComponent from './components/Layout/Navbar.js';
+import NavBar from './components/Layout/Navbar/Navbar';
 import './App.css';
-import Discussion from './components/Layout/Discussion';
-import Footer from './components/Layout/Footer.js';
-import Sidebar from './components/Layout/Sidebar.js';
+// import Discussion from './components/Layout/Discussion';
+import Footer from './components/Layout/Footer/Footer';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Mainpage from './components/Layout/Mainpage/Mainpage.js';
 
 class App extends Component {
   render() {
     return (
       <Router>
         <div className="App">
-          <NavComponent />
-
-          <div className="container ">
-            <Discussion />
-          </div>
+          <NavBar />
+          <Mainpage />
+          <div className="container ">{/* <Discussion /> */}</div>
 
           <Footer />
         </div>
