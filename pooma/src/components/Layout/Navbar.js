@@ -31,10 +31,10 @@ class NavComponent extends React.Component {
     let links = this.refs.narrowLinks;
     console.log(links);
 
-    if (links.style.display === 'block') {
+    if (links.style.display === 'inline-block') {
       links.style.display = 'none';
     } else {
-      links.style.display = 'block';
+      links.style.display = 'inline-block';
     }
   };
 }
