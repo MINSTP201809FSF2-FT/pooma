@@ -37,7 +37,7 @@ div.discussionBlock p {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    padding: 1%
+    padding: 0.7em;
 }
 .avatar {
     background-color: rgba(200, 0, 200, .6)
@@ -45,6 +45,6 @@ div.discussionBlock p {
 }
 .textContent {
     background-color: rgba(200, 200, 0, .6);
-    padding: 2%;
+    padding: 1em;
 
 }
