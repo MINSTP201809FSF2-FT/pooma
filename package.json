@@ -1,0 +1,35 @@
+{
+  "name": "pooma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'pooma/*'\" \"npm run pooma\"",
+    "client": "cd pooma && npm run start",
+    "install": "cd pooma && yarn install",
+    "build": "cd pooma && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MINSTP201809FSF2-FT/pooma.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MINSTP201809FSF2-FT/pooma/issues"
+  },
+  "homepage": "https://github.com/MINSTP201809FSF2-FT/pooma#readme",
+  "devDependencies": {
+    "concurrently": "^4.0.1",
+    "nodemon": "^1.11.0"
+
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.4",
+    "if-env": "^1.0.4"
+  }
+}

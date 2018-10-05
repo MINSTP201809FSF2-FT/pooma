@@ -4,7 +4,9 @@ import Discussion from './Discussion'
 import './DiscussionList.css';
 
 class DiscussionList extends React.Component {
-
+    state = {
+        discussions = []
+    }
     render() {
         return (
             <div className="discussion-list">
