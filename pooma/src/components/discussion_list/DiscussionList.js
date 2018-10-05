@@ -5,7 +5,7 @@ import './DiscussionList.css';
 
 class DiscussionList extends React.Component {
     state = {
-        discussions = []
+        discussions: []
     }
     render() {
         return (
