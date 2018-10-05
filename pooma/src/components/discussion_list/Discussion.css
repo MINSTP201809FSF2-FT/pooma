@@ -11,19 +11,20 @@ div.discussionBlock {
 
 div.discussionBlock div {
     /* height: 4em; */
-    align-self: flex-start;
+    align-self: center;
     display: flex;
     flex-flow: column nowrap;
 }
 
 div.discussionBlock p {
-    height: 1em;
+    /* height: 1em; */
     padding: 0;
     margin: 0;
 }
 .arrows img {
     height: 1em;
     flex-grow: 1;
+    margin: 0.1em;
 }
 .avatar img {
     height: 4em;
@@ -35,12 +36,15 @@ div.discussionBlock p {
     background-color: rgba(0, 200, 200, .6);
     display: flex;
     flex-flow: column nowrap;
+    align-items: center;
+    padding: 0.7em;
 }
 .avatar {
     background-color: rgba(200, 0, 200, .6)
 
 }
 .textContent {
-    background-color: rgba(200, 200, 0, .6)
+    background-color: rgba(200, 200, 0, .6);
+    padding: 1em;
 
 }
