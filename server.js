@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3666;
 
 function errorHandler(err, req, res, next) {
   if (res.headersSent) {
