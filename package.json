@@ -10,7 +10,8 @@
     "client": "cd pooma && npm run start",
     "install": "cd pooma && yarn install",
     "build": "cd pooma && npm run build",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run build",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
@@ -24,12 +25,12 @@
   "homepage": "https://github.com/MINSTP201809FSF2-FT/pooma#readme",
   "devDependencies": {
     "concurrently": "^4.0.1",
-    "nodemon": "^1.11.0"
-
+    "nodemon": "^1.18.4"
   },
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.15.4",
-    "if-env": "^1.0.4"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "if-env": "^1.0.4",
+    "mongoose": "^5.3.2"
   }
 }
