@@ -1,8 +1,8 @@
-#Web Accessibility Standards
+# Web Accessibility Standards
 
-##Guidelines from [W3.org](https://www.w3.org/standards/webdesign/accessibility#examples)
+## Guidelines from [W3.org](https://www.w3.org/standards/webdesign/accessibility#examples)
 
-###General
+### General
 - Alt text for images and transcripts for audio/video
 - Keyboard input (don’t rely on mouse for navigation/functionality)
 - [Checklist:](https://www.w3.org/WAI/test-evaluate/preliminary/)
@@ -15,7 +15,7 @@
     - Reduce or eliminate moving, flashing, blinking, or auto-updating content (include ability to pause/stop/hide)
     - Basic structure (what order will a screen reader go through the elements?)
 
-###Design Principles
+### Design Principles
 - Contrast between foreground and background
 - Don’t rely on color alone to convey information (use multiple indicators)
 - Make interactive material easily identifiable (hovering on links, highlighting tab-selected fields, etc)
@@ -27,7 +27,7 @@
 - Design for different viewport sizes
 - Provide Media alternatives
 
-###Writing Principles
+### Writing Principles
 - Informative, unique page titles
 - Headings to convey meaning and structure
 - Meaningful link text
@@ -35,7 +35,7 @@
 - Transcripts and captions for media
 - Clear instructions
 
-###Development Principles
+### Development Principles
 - Labels for every form control
 - Alt text for media
 - ID primary page language
